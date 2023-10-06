@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background: #333535;
+    color:antiquewhite
+} 
+
+.header{
+    position: fixed
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgb(80, 42, 42);
+    display: flex;
+    background: transparent;
+
+}
+.navbar a {
+    color:whitesmoke;
+    font-size: 13px;
+    font-weight: 550;
+    margin-left: 25px;
+    text-decoration:none;
+    transition: .2s;
+}
+.navbar a:hover, .navbar a.active {
+    color : #0b1012;
+
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 0 10%;
+    justify-content: center;
+    flex-direction:  column;
+    text-align: center; /* to make it center */
+}
+.home-content {
+   
+    max-width: 600px;
+}
+.home-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    
+}
+
+.home-content h4 {
+    font-size: 28px;
+    font-weight: 600px;
+    color: rgb(87, 69, 105) ;
+}
+.home-content h5 {
+    font-size: 19px;
+    font-weight: 600px;
+    color: rgb(77, 69, 86) ;
+}
+.home-content p {
+    font-size: 18px;
+    margin: 19px 0 35px;
+   /* font-weight: 600px;
+   /* color: rgb(246, 245, 245) ;*/
+}
+
+
+/* THis is for the Hire and Lets talk style*/
+
+
+
+
+
+
+
+.footer {
+    bottom: 0;
+    left: 50%;
+    width: 200px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    transform: translate(-50%);
+}
+
+.footer a {
+    height:50px;
+    width: 50px;
+    display :flex;
+    justify-content: center;
+    background:transparent;
+    border: 1.5px solid blanchedalmond;
+    border-radius :50%;
+    color :blanchedalmond;
+    text-decoration : none;
+    align-items : center;
+
+
+
+}
+/* change font size to bigger */
+footer p:nth-child(1) {
+    font-size: 25px;
+    color: blanchedalmond;
+    font-weight: bold;
+}
+ 
+/* Center-align the content within the body */
+body {
+    text-align: center;
+    
+}
+body p {
+    font-size: larger;
+}
+
